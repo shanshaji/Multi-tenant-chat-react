@@ -1,0 +1,47 @@
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .Site-content {
+    flex: 1;
+    margin-top: 7em;
+  }
+.animation-appear {
+    opacity: 0.01;
+  }
+  
+  .animation-appear.animation-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+  }
+
+.add-delete{
+  height: 38px;
+  margin-top: 23px !important;
+}
+.button-alignment{
+  margin-top: 24px !important;
+}
+.seat-layout-segment{
+  overflow-x: scroll !important;
+  overflow-y: hidden !important;
+  white-space: nowrap !important;  
+}
+.seat{
+  display: inline-block !important;
+  width: 50px ;
+  margin-bottom: 6px !important;
+  margin-right: 6px !important;
+}
+.signup {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url('../images/sign-up/shan.jpg') !important;
+  background-size: cover !important;
+}
+.dark-footer{
+  background-color: #0a253a !important;
+}
